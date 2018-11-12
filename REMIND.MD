@@ -15,3 +15,19 @@ hexo new post “博客名” 新建博客
 hexo d -g，生成以及部署
 
 需要安装一个扩展：npm install hexo-deployer-git --save
+
+
+
+…or create a new repository on the command line
+
+echo "# JavaCode" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/busizshen/JavaCode.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/busizshen/JavaCode.git
+git push -u origin master
