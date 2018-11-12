@@ -4,6 +4,7 @@ hexo -v，检查hexo是否安装成功
 
 hexo init，初始化
 
+
 npm install，安装所需要的组件
 
 hexo g，首次体验Hexo
