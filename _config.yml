@@ -79,6 +79,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:git
-  repository：https://github.com/busizshen/busizshen.github.io
-  branch：master
+  type: git
+  repository: https://github.com/busizshen/busizshen.github.io
+  branch: master
