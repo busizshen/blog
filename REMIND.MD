@@ -18,6 +18,8 @@ hexo d -g，生成以及部署
 需要安装一个扩展：npm install hexo-deployer-git --save
 
 
+git remote rm origin
+git remote add origin [url]
 
 …or create a new repository on the command line
 
@@ -30,7 +32,7 @@ git push -u origin master
 
 …or push an existing repository from the command line
 
-git remote add origin https://github.com/busizshen/JavaCode.git
+git remote add origin git@github.com:busizshen/busizshen.github.io.git
 git push -u origin master
 
 
@@ -44,8 +46,3 @@ hexo server #开启预览访问端口（默认端口4000，'ctrl + c'关闭serve
 hexo deploy #将.deploy目录部署到GitHub
 hexo help # 查看帮助
 hexo version #查看Hexo的版本
-
-作者：比德鲁滨逊
-链接：https://www.jianshu.com/p/8681ab76da08
-來源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
