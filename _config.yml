@@ -8,7 +8,7 @@ subtitle: 测试1
 description: 简单的写写
 author: busizshen
 language: ZH
-timezone: now
+timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
