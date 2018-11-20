@@ -53,5 +53,4 @@ title可加可不加
 
 ```
 `create database hero;`
-
 ```
